@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <TextView
+        android:text="Car Dealer"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:paddingTop="20dp"
+        android:id="@+id/companyNameText"
+        android:textAlignment="center" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="403.0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout1"
+            android:layout_weight="1">
+            <ImageView
+                android:src="@drawable/carsImg"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:id="@+id/headquarterImage"
+                android:layout_marginBottom="20dp" />
+            <ImageView
+                android:src="@drawable/peopleImg"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:id="@+id/headquarterImage"
+                android:layout_marginBottom="20dp" />
+            <ImageView
+                android:src="@drawable/dealImg"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:id="@+id/headquarterImage"
+                android:foregroundGravity="fill"
+                android:baselineAlignBottom="false" />
+        </LinearLayout>
+        <TextView
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus massa orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin sit amet diam rutrum nisi molestie varius nec nec odio. Cras metus libero, dapibus ut viverra vitae, rutrum at felis. Morbi pharetra suscipit egestas. Integer venenatis dolor ut nibh pretium finibus. Maecenas vel volutpat ex. Nunc vitae ligula tempus, laoreet felis sed, pharetra velit. Cras bibendum nibh a lacus dapibus, iaculis ullamcorper ipsum fermentum. Nam vel ullamcorper ipsum. Sed nec erat erat. Praesent porttitor massa non."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionText"
+            android:layout_weight="3"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+    <Button
+        android:text="Call to us!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/callButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+</LinearLayout>

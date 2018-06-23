@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="CarDealer.CarDealer" android:installLocation="preferExternal">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+  <uses-permission android:name="android.permission.CALL_PHONE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="CarDealerAboutActivity" android:name="md5fcc495610b1c66fd2f4b519a3d31f4e3.CarDealerAboutActivity" />
+    <activity android:icon="@drawable/icon" android:label="CarDealerMenuActivity" android:name="md5fcc495610b1c66fd2f4b519a3d31f4e3.CarDealerCarListActivity" />
+    <activity android:icon="@drawable/icon" android:label="CarDealerMenuActivity" android:name="md5fcc495610b1c66fd2f4b519a3d31f4e3.CarDealerMenuActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="CarDetailsActivity" android:name="md5fcc495610b1c66fd2f4b519a3d31f4e3.CarDetailsActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="CarDealer.CarDealer.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.CarDealer.CarDealer" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

@@ -1,0 +1,5 @@
+G:\repo\CarDealer\CarDealer.Core\obj\Debug\CarDealer.Core.csproj.CoreCompileInputs.cache
+G:\repo\CarDealer\CarDealer.Core\bin\Debug\CarDealer.Core.dll
+G:\repo\CarDealer\CarDealer.Core\bin\Debug\CarDealer.Core.pdb
+G:\repo\CarDealer\CarDealer.Core\obj\Debug\CarDealer.Core.dll
+G:\repo\CarDealer\CarDealer.Core\obj\Debug\CarDealer.Core.pdb
