@@ -3,3 +3,9 @@ G:\repo\CarDealer\CarDealer.Core\bin\Debug\CarDealer.Core.dll
 G:\repo\CarDealer\CarDealer.Core\bin\Debug\CarDealer.Core.pdb
 G:\repo\CarDealer\CarDealer.Core\obj\Debug\CarDealer.Core.dll
 G:\repo\CarDealer\CarDealer.Core\obj\Debug\CarDealer.Core.pdb
+G:\CarDealer\CarDealer.Core\bin\Debug\CarDealer.Core.dll
+G:\CarDealer\CarDealer.Core\bin\Debug\CarDealer.Core.pdb
+G:\CarDealer\CarDealer.Core\obj\Debug\CarDealer.Core.csprojAssemblyReference.cache
+G:\CarDealer\CarDealer.Core\obj\Debug\CarDealer.Core.csproj.CoreCompileInputs.cache
+G:\CarDealer\CarDealer.Core\obj\Debug\CarDealer.Core.dll
+G:\CarDealer\CarDealer.Core\obj\Debug\CarDealer.Core.pdb

@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\repo\\CarDealer\\CarDealer\\CarDealer.csproj",
+      "projectUniqueName": "G:\\CarDealer\\CarDealer\\CarDealer.csproj",
       "projectName": "CarDealer",
-      "projectPath": "G:\\repo\\CarDealer\\CarDealer\\CarDealer.csproj",
+      "projectPath": "G:\\CarDealer\\CarDealer\\CarDealer.csproj",
       "packagesPath": "C:\\Users\\arek_\\.nuget\\packages\\",
-      "outputPath": "G:\\repo\\CarDealer\\CarDealer\\obj\\",
+      "outputPath": "G:\\CarDealer\\CarDealer\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -486,8 +486,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "G:\\repo\\CarDealer\\CarDealer.Core\\CarDealer.Core.csproj": {
-              "projectPath": "G:\\repo\\CarDealer\\CarDealer.Core\\CarDealer.Core.csproj"
+            "G:\\CarDealer\\CarDealer.Core\\CarDealer.Core.csproj": {
+              "projectPath": "G:\\CarDealer\\CarDealer.Core\\CarDealer.Core.csproj"
             }
           }
         }
